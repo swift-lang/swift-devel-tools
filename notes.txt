@@ -1,0 +1,16 @@
+1. git init .
+2. Edit .git/config
+
+[svn-remote "cog-svn"]
+  url = https://svn.code.sf.net/p/cogkit/svn/
+  fetch = trunk:refs/remotes/cog-svn/trunk
+  branches = branches/*:refs/remotes/cog-svn/*
+  tags = tags/*:refs/remotes/cog-svn/tags/*
+
+[svn-remote "swift-svn"]
+  url = https://svn.ci.uchicago.edu/svn/vdl2
+  fetch = trunk:refs/remotes/swift-svn/trunk
+  branches = branches/*:refs/remotes/swift-svn/*
+  tags = tags/*:refs/remotes/swift-svn/tags/*
+
+
