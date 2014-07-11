@@ -13,4 +13,10 @@
   branches = branches/*:refs/remotes/swift-svn/*
   tags = tags/*:refs/remotes/swift-svn/tags/*
 
+3. Fetch both remotes for history
+....
+4. Checkout both into local branches.
+5. Move both into final layout
+6. Merge local branches
 
+7. Use git format-patch and git am to update merged repository.
