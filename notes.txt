@@ -13,7 +13,11 @@
   branches = branches/*:refs/remotes/swift-svn/*
   tags = tags/*:refs/remotes/swift-svn/tags/*
 
-3. Fetch both remotes for history
+2.5 Add authors file option
+  git config svn.authorsfile $HOME/ExM/git.migrate.git/authors.txt
+
+
+3. Fetch both remotes for history with authors
 ....
 4. Checkout both into local branches.
 5. Move both into final layout
