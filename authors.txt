@@ -1,3 +1,10 @@
 hategan@CI.UCHICAGO.EDU = Ben Clifford <benc@hawaga.org.uk>
 benc@CI.UCHICAGO.EDU = Mihael Hategan <hategan@mcs.anl.gov>
 tiberius@CI.UCHICAGO.EDU = Tiberiu Stef-Praun <tiberius@ci.uchicago.edu>
+yongzh@CI.UCHICAGO.EDU = Yong Zhao <yongzh@ci.uchicago.edu>
+laszewski@CI.UCHICAGO.EDU = Gregor von Laszewski <laszewski@gmail.com>
+wilde@CI.UCHICAGO.EDU = Michael Wilde <wilde@mcs.anl.gov>
+wozniak@CI.UCHICAGO.EDU = Justin Wozniak <wozniak@mcs.anl.gov>
+tga@CI.UCHICAGO.EDU = Tim Armstrong <tim.g.armstrong@gmail.com>
+davidkelly@CI.UCHICAGO.EDU = David Kelly <davidkelly@uchicago.edu>
+yadunand@CI.UCHICAGO.EDU = Yadu Nand B <yadudoc1729@gmail.com>
