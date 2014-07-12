@@ -1,23 +1,5 @@
 1. Make directory for repo, cd into it
-
-2. Run checkout.sh
-
+2. Run checkout.sh to fetch all svn history
 3. Fixup broken history around trunk move (TODO)
-
-4. Checkout both into local branches.
-5. Move both into final layout
-git checkout -b swift-trunk remotes/swift-svn/trunk
-mkdir -p modules/swift
-git mv $(ls | grep -v modules) modules/swift
-git commit -a -m "Move Swift source into modules subdirectory before merge"
-
-git checkout -b swift-unified-trunk remotes/cog-svn/trunk
-git mv src/cog/* .
-git commit -a -m "Move CoG source into root before merge"
-git merge swift-trunk -m "Merge CoG trunk and Swift trunk into unified tree"
-
-
-
-6. Merge local branches
-
-7. Use git format-patch and git am to update merged repository.
+4. Move both into final layout with mergetree.sh script
+5. Use git format-patch and git am to update merged repository.
