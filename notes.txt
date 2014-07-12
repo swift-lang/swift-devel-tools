@@ -1,22 +1,8 @@
-1. git init .
-2. Edit .git/config
+1. Make directory for repo, cd into it
 
-[svn-remote "cog-svn"]
-  url = https://svn.code.sf.net/p/cogkit/svn/
-  fetch = trunk:refs/remotes/cog-svn/trunk
-  branches = branches/*:refs/remotes/cog-svn/*
-  tags = tags/*:refs/remotes/cog-svn/tags/*
+2. Run checkout.sh
 
-[svn-remote "swift-svn"]
-  url = https://svn.ci.uchicago.edu/svn/vdl2
-  fetch = trunk:refs/remotes/swift-svn/trunk
-  branches = branches/*:refs/remotes/swift-svn/*
-  tags = tags/*:refs/remotes/swift-svn/tags/*
 
-2.5 Add authors file option
-  git config svn.authorsfile $HOME/ExM/git.migrate.git/authors.txt
-
-3. Fetch both remotes for history
 ....
 4. Checkout both into local branches.
 5. Move both into final layout
