@@ -23,6 +23,8 @@ git config svn.authorsfile $SCRIPTDIR/authors.txt
 
 #Trunk moving stuff messed up history.  Fetch up until that revision, then
 #rename trunk revs and explicitly fetch fromthat rev onwards.a
-git svn fetch -r 1:3713
+
+git svn fetch -r 1:3713 cog-svn
 sed -i .git/config 's/.before_move//'
 git svn fetch -r 3713:HEAD cog-svn
+git svn fetch swift-svn
