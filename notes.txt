@@ -6,6 +6,18 @@
 
 4. Checkout both into local branches.
 5. Move both into final layout
+git checkout -b swift-trunk remotes/swift-svn/trunk
+mkdir -p modules/swift
+git mv $(ls | grep -v modules) modules/swift
+git commit -a -m "Move Swift source into modules subdirectory before merge"
+
+git checkout -b swift-unified-trunk remotes/cog-svn/trunk
+git mv src/cog/* .
+git commit -a -m "Move CoG source into root before merge"
+git merge swift-trunk -m "Merge CoG trunk and Swift trunk into unified tree"
+
+
+
 6. Merge local branches
 
 7. Use git format-patch and git am to update merged repository.
