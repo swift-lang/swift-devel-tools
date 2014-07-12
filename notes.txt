@@ -2,8 +2,8 @@
 
 2. Run checkout.sh
 
+3. Fixup broken history around trunk move (TODO)
 
-....
 4. Checkout both into local branches.
 5. Move both into final layout
 6. Merge local branches
