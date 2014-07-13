@@ -27,6 +27,6 @@ git config svn.authorsfile $SCRIPTDIR/authors.txt
 #rename trunk revs and explicitly fetch fromthat rev onwards.a
 
 git svn fetch -r 1:3713 cog-svn
-sed -i .git/config 's/.before_move//'
+sed -i 's/.before_move//' .git/config 
 git svn fetch -r 3713:HEAD cog-svn
 git svn fetch swift-svn

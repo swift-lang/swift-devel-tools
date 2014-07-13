@@ -8,8 +8,6 @@ git mv $(ls | grep -v modules) modules/swift
 git commit -a -m "Move Swift source into modules subdirectory before merge"
 
 git checkout -b swift-unified-trunk remotes/cog-svn/trunk
-rmdir modules/swift
-rmdir modules
 git mv src/cog/* .
 rmdir src/cog
 rmdir src
