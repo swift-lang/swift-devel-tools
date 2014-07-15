@@ -1,0 +1,23 @@
+# List of tags to push from svn to git
+# Format is:
+# <git-svn remote name> <svn tag name> <git tag name>
+cog-svn swift_0.92.1 swift-0.92.1-cog
+swift-svn release-0.92.1 swift-0.92.1-swift
+
+cog-svn swift-0.93 swift-0.93-cog
+swift-svn release-0.93 swift-0.93-swift
+
+cog-svn swift-0.94.1 swift-0.94.1-cog
+swift-svn swift-0.94.1 swift-0.94.1-swift
+
+swift-svn swift-0.95-RC1 swift-0.95-RC1-swift
+swift-svn swift-0.95-RC3 swift-0.95-RC3-swift
+swift-svn swift-0.95-RC4 swift-0.95-RC4-swift
+swift-svn swift-0.95-RC5 swift-0.95-RC5-swift
+swift-svn swift-0.95-RC6 swift-0.95-RC6-swift
+
+cog-svn swift-0.95-RC1 swift-0.95-RC1-cog
+cog-svn swift-0.95-RC3 swift-0.95-RC3-cog
+cog-svn swift-0.95-RC4 swift-0.95-RC4-cog
+cog-svn swift-0.95-RC5 swift-0.95-RC5-cog
+cog-svn swift-0.95-RC6 swift-0.95-RC6-cog
