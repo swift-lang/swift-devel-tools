@@ -1,5 +1,0 @@
-1. Make directory for repo, cd into it
-2. Run checkout.sh to fetch all svn history
-3. Fixup broken history around trunk move (TODO)
-4. Move both into final layout with mergetree.sh script
-5. Use git format-patch and git am to update merged repository.

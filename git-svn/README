@@ -1,0 +1,8 @@
+Scripts and other files for converting SVN history to git.
+
+Process
+======
+1. Make directory for repo, cd into it
+2. Run checkout.sh to fetch all svn history
+3. Move both into final layout with mergetree.sh script
+4. Use git format-patch and git am to move changes to merged repository (TODO: script)

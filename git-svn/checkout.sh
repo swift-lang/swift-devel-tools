@@ -24,7 +24,7 @@ EOF
 git config svn.authorsfile $SCRIPTDIR/authors.txt
 
 #Trunk moving stuff messed up history.  Fetch up until that revision, then
-#rename trunk revs and explicitly fetch fromthat rev onwards.a
+#rename trunk revs and explicitly fetch from that rev onwards.
 
 git svn fetch -r 1:3713 cog-svn
 sed -i 's/.before_move//' .git/config 
