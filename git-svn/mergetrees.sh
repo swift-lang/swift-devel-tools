@@ -4,7 +4,7 @@ set -e
 
 git checkout -b swift-trunk remotes/swift-svn/trunk
 mkdir -p modules/swift
-git mv $(ls -a | grep -v modules | grep -v .git ) modules/swift
+git mv $(ls -A | grep -v modules | grep -v .git ) modules/swift
 git commit -a -m "Move Swift source into modules subdirectory before merge"
 
 git checkout -b swift-unified-trunk remotes/cog-svn/trunk
