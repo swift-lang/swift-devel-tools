@@ -36,5 +36,8 @@ sed -i 's/.before_move//' .git/config
 git svn fetch -r 3713:HEAD cog-svn
 git svn fetch swift-svn
 
+# Clean up any empty directories created
+git clean -df
+
 echo
 echo "Checkout OK"
