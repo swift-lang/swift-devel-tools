@@ -1,0 +1,22 @@
+# List of branches to push from svn to git
+# Format is:
+# <git-svn remote name> <svn branch name> <git branch name>
+
+# Swift release branches
+swift-svn release-0.91 release-0.91-swift
+swift-svn release-0.92 release-0.92-swift
+swift-svn release-0.92.1 release-0.92.1-swift
+swift-svn release-0.93 release-0.93-swift
+swift-svn release-0.93.1 release-0.93.1-swift
+swift-svn release-0.94 release-0.94-swift
+swift-svn release-0.95 release-0.95-swift
+
+# CoG versioned branches: ignore intermediate branches that were merged
+# back to trunk
+cog-svn 4.1.5 cog-4.1.5
+cog-svn 4.1.6 cog-4.1.6
+cog-svn 4.1.7 cog-4.1.7
+cog-svn 4.1.8 cog-4.1.8
+cog-svn 4.1.9 cog-4.1.9
+cog-svn 4.1.10 cog-4.1.10
+cog-svn 4.1.11 cog-4.1.11
