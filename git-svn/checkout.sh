@@ -4,6 +4,11 @@ set -e
 
 SCRIPTDIR=$(cd $(dirname $0); pwd)
 
+if [ -d .git ]; then
+  echo "ERROR: git repository already exists"
+  exit 1
+fi
+
 git init .
 echo 
 
@@ -30,3 +35,6 @@ git svn fetch -r 1:3713 cog-svn
 sed -i 's/.before_move//' .git/config 
 git svn fetch -r 3713:HEAD cog-svn
 git svn fetch swift-svn
+
+echo
+echo "Checkout OK"
