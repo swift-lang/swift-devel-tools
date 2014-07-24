@@ -46,7 +46,7 @@ do
     continue
   fi
 
-  rev_range="${git_commit}..${remote_branch}"
+  rev_range="${git_rev}..${remote_branch}"
 
   if [ $svn_remote = cog-svn ]
   then

@@ -8,6 +8,9 @@ git checkout --detach
 if git branch -D __TMP_MASTER 2> /dev/null; then
   :
 fi
+
+git fetch github
+
 git checkout -b __TMP_MASTER remotes/github/master
 $SCRIPTDIR/update.sh
 git push github HEAD:master
