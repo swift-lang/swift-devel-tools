@@ -50,9 +50,9 @@ do
 
   if [ $svn_remote = cog-svn ]
   then
-    # Strip src/cog off paths
+    # Strip src/cog off paths, and replace with cogkit
     AM_P=3
-    AM_DIR=
+    AM_DIR=cogkit
   elif [ $svn_remote = swift-svn ]
   then
     # Add modules/swift to paths
