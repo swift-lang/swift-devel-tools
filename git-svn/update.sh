@@ -55,9 +55,9 @@ do
     AM_DIR=cogkit
   elif [ $svn_remote = swift-svn ]
   then
-    # Add modules/swift to paths
+    # Merge Swift changes to root
     AM_P=1
-    AM_DIR=modules/swift
+    AM_DIR=
   else
     echo "Unexpected remote $svn_remote"
     exit 1
